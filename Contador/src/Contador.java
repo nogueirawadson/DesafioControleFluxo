@@ -30,9 +30,10 @@ public class Contador {
        
          if (parametroDois > parametroUm) { 
         int contagem = parametroDois - parametroUm;
+        System.out.println("Números inseridos: " + parametroUm + " e " + parametroDois + "\n Valor da subtração entre os dois: " + contagem + "\n Imprimindo números até " +  contagem);
         for ( int count = 0; contagem > count; count ++)
         
-        System.out.println("Imprimindo o núemro: " + (count + 1)  );
+        System.out.println(" Imprimindo o número: " + (count + 1)  );
         
         } else
         throw new UnsupportedOperationException();
