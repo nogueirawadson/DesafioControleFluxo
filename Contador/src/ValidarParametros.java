@@ -5,7 +5,7 @@ public class ValidarParametros {
         
     }
     static int contar(int parametroUm, int parametroDois) throws ParamentrosInvalidosException {
-        if (parametroDois < parametroUm) ;
+     
         throw new ParamentrosInvalidosException();
     }
 }
