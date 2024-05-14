@@ -18,7 +18,7 @@ public class Contador {
 
             
         } catch (UnsupportedOperationException exception ) {   
-           System.out.println("O segundo parâmetro deve ser maior que o primeiro! Tente Novamente. ");
+           System.out.println("O segundo parâmetro deve ser maior que o primeiro! Tente Novamente.");
         } catch (final InputMismatchException exception) {
             System.out.println("AMBOS OS PARÂMETROS DEVEM SER NÚMERICOS! Tente Novamente. ");
         }
